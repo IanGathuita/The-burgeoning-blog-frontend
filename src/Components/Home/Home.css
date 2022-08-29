@@ -1,0 +1,9 @@
+.login-signup-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-signup-tabs h3{
+    cursor:pointer;
+}

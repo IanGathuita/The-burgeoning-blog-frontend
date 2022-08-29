@@ -1,0 +1,38 @@
+.blog-preview{
+    display:grid;
+    width: 100%;
+    grid-template-columns: 65% 35%;
+    background-color: grey;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding: 0;
+    align-items: center;
+}
+
+.blog-preview-text{
+    padding:  8px;
+    margin: 0;
+}
+
+.blog-preview-title{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.three-line-clamp{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.blog-thumbnail{
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.blog-thumbnail{
+    margin: auto;
+   
+}
